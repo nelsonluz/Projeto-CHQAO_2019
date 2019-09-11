@@ -1,4 +1,5 @@
 \documentclass[%twoside,                   								  % Impressão em frente e verso 	        oneside,                   								  % Impressão apenas frente
+openany
 ]{configuracoes/ifbaiano-abntex2}
 
 % INCLUI ARQUIVOS DE  CONFIGURAÇÕES----------------------------------------
@@ -27,9 +28,9 @@
 %\include{estrutura/pre-textuais/epigrafe}              			       % Epígrafe
 %\include{estrutura/pre-textuais/resumo}             			           % Resumo em Português
 %\include{estrutura/pre-textuais/abstract}             		               % Resumo em Inglês
-\include{estrutura/pre-textuais/listas/listas-ilustracoes/lista-figuras}   % Lista de Figuras
+% \include{estrutura/pre-textuais/listas/listas-ilustracoes/lista-figuras}   % Lista de Figuras
 %\include{estrutura/pre-textuais/listas/listas-ilustracoes/lista-quadros}   % Lista de Quadros
-\include{estrutura/pre-textuais/listas/lista-tabelas}         		       % Lista de Tabelas
+% \include{estrutura/pre-textuais/listas/lista-tabelas}         		       % Lista de Tabelas
 %\include{estrutura/pre-textuais/listas/lista-siglas}          		       % Lista de Abreviaturas e Siglas
 %\include{estrutura/pre-textuais/listas/lista-simbolos}        		       % Lista de Símbolos
 %\include{estrutura/pre-textuais/listas/listas-diversas/lista-algoritmos}   % Lista de Algoritmos
@@ -37,8 +38,13 @@
 
 \textual
 
-\include{estrutura/textuais/introducao}             					
-\include{estrutura/textuais/justificativa}      
+\include{estrutura/textuais/introducao}        
+
+\include{estrutura/textuais/definicao-problema}
+
+\include{estrutura/textuais/referencial-teorico}
+
+\include{estrutura/textuais/justificativa}     
 
 \include{estrutura/textuais/objetivos}
 
@@ -48,7 +54,7 @@
 
 \include{estrutura/textuais/desenvolvimento/resultadosesperados}       	  
 
-%\include{estrutura/textuais/conclusao}                 			     
+\include{estrutura/textuais/metodologia}              %\include{estrutura/textuais/conclusao}                 			     
 \include{estrutura/textuais/cronograma} 								  
 
 \postextual
